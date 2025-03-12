@@ -1,0 +1,97 @@
+body {
+    font-family: 'SF Mono', sans-serif;
+    background-color: #748CAB;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #F8F6F2;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 480px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #262730;
+}
+
+p {
+    font-size: 0.65em;
+    color: #262730;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #377771;
+    font-size: 0.9em;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #F6E8EA;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    font-family: 'SF Mono', sans-serif;
+}
+
+button[type="submit"]{
+    background-color: #4A7C59;
+    color: #fff;
+}
+
+button[type="reset"]{
+    background-color: #fff;
+    color: #4A7C59;
+}
+
+button[type="submit"]:hover {
+    background-color: #377771;
+}
+
+button[type="reset"]:hover {
+    background-color: #F8F6F2;
+}
+
+#resultado {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #4A7C59;
+    color: #4A7C59;
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
